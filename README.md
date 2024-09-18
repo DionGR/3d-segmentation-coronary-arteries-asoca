@@ -1,6 +1,6 @@
 # SwinUNETRv2 for 3D Medical Image Segmentation - The ASOCA Challenge
 
-In this project, we present a novel 3D medical image segmentation model, SwinUNETRv2, which is based on the Swin Transformer and UNETR. We evaluate the model on the ASOCA Challenge dataset, which is a 3D medical image segmentation dataset for the segmentation of the aorta and pulmonary artery. With very little pretraining and fine-tuning, our model achieves competitive performance on the ASOCA Challenge dataset, with a Dice Score of 0.83. 
+In this project, we present a novel 3D medical image segmentation model, SwinUNETRv2, which is based on the Swin Transformer and UNETR. We evaluate the model on the ASOCA Challenge dataset, which is a 3D medical image segmentation dataset for the segmentation of the aorta and pulmonary artery. With very little pretraining and fine-tuning, our model achieves competitive performance on the ASOCA Challenge dataset, with a Dice Score of 0.83 as seen on the official ASOCA [leaderboard](https://asoca.grand-challenge.org/evaluation/challenge/leaderboard/).
 
 ## Requirements
 - Pretraining and training the model requires a GPU with at least 22GB of VRAM (e.g. NVIDIA RTX4090).
