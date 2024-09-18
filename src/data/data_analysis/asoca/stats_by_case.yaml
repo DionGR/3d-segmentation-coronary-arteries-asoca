@@ -1,0 +1,2531 @@
+stats_summary:
+  image_stats:
+    shape:
+      max: [512, 512, 224]
+      mean: [512.0, 512.0, 215.6764705882353]
+      median: [512.0, 512.0, 224.0]
+      min: [512, 512, 168]
+      stdev: [0.0, 0.0, 12.910826711205678]
+      percentile:
+      - [512, 512, 170]
+      - [512, 512, 202]
+      - [512, 512, 224]
+      - [512, 512, 224]
+      percentile_00_5: [512, 512, 170]
+      percentile_10_0: [512, 512, 202]
+      percentile_90_0: [512, 512, 224]
+      percentile_99_5: [512, 512, 224]
+    channels:
+      max: 1
+      mean: 1.0
+      median: 1.0
+      min: 1
+      stdev: 0.0
+      percentile: [1, 1, 1, 1]
+      percentile_00_5: 1
+      percentile_10_0: 1
+      percentile_90_0: 1
+      percentile_99_5: 1
+    cropped_shape:
+      max: [512, 512, 224]
+      mean: [512.0, 497.5882352941176, 215.6764705882353]
+      median: [512.0, 500.0, 224.0]
+      min: [512, 453, 168]
+      stdev: [0.0, 14.667125399138321, 12.910826711205678]
+      percentile:
+      - [512, 455, 170]
+      - [512, 475, 202]
+      - [512, 512, 224]
+      - [512, 512, 224]
+      percentile_00_5: [512, 455, 170]
+      percentile_10_0: [512, 475, 202]
+      percentile_90_0: [512, 512, 224]
+      percentile_99_5: [512, 512, 224]
+    spacing:
+      max: [0.49414100000000005, 0.49414100000000005, 0.6250000000000002]
+      mean: [0.4053515599058825, 0.4053515599058825, 0.625]
+      median: [0.3974610058, 0.3974610058, 0.625]
+      min: [0.306641, 0.306641, 0.6249999999999996]
+      stdev: [0.041689698076183467, 0.041689698076183467, 1.158168192132449e-16]
+      percentile:
+      - [0.311152595, 0.311152595, 0.6249999999999996]
+      - [0.35390589538, 0.35390589538, 0.6249999999999999]
+      - [0.46250009188, 0.46250009188, 0.6250000000000001]
+      - [0.49027373095700005, 0.49027373095700005, 0.6250000000000002]
+      percentile_00_5: [0.311152595, 0.311152595, 0.6249999999999996]
+      percentile_10_0: [0.35390589538, 0.35390589538, 0.6249999999999999]
+      percentile_90_0: [0.46250009188, 0.46250009188, 0.6250000000000001]
+      percentile_99_5: [0.49027373095700005, 0.49027373095700005, 0.6250000000000002]
+    sizemm:
+      max: [253, 253, 140]
+      mean: [207.08823529411765, 207.08823529411765, 134.55882352941177]
+      median: [203.0, 203.0, 140.0]
+      min: [157, 157, 105]
+      stdev: [21.402814063271904, 21.402814063271904, 8.157245701794594]
+      percentile:
+      - [159, 159, 106]
+      - [180, 180, 126]
+      - [236, 236, 140]
+      - [250, 250, 140]
+      percentile_00_5: [159, 159, 106]
+      percentile_10_0: [180, 180, 126]
+      percentile_90_0: [236, 236, 140]
+      percentile_99_5: [250, 250, 140]
+    intensity: {max: 3679.0, mean: -797.6967414407169, median: -332.70588235294116,
+      min: -3435.0, stdev: 1176.4132654526654, percentile_00_5: -3025.735294117647,
+      percentile_10_0: -3023.764705882353, percentile_90_0: 178.55882352941177, percentile_99_5: 552.9705882352941}
+  image_foreground_stats:
+    intensity: {max: 1837.0, mean: 335.0523780373966, median: 331.4117647058824, min: -370.0,
+      stdev: 89.00604461221134, percentile_00_5: 150.04779344446519, percentile_10_0: 230.02941176470588,
+      percentile_90_0: 440.2647058823529, percentile_99_5: 622.3685374540441}
+  label_stats:
+    labels: [0, 1]
+    image_intensity: {max: 1837.0, mean: 335.0523780373966, median: 331.4117647058824,
+      min: -370.0, stdev: 89.00604461221134, percentile_00_5: 150.04779344446519,
+      percentile_10_0: 230.02941176470588, percentile_90_0: 440.2647058823529, percentile_99_5: 622.3685374540441}
+    label:
+    - foreground_percentage:
+        max: 0.9997517466545105
+        mean: 0.9994424546466154
+        median: 0.9994771182537079
+        min: 0.9989922046661377
+        stdev: 0.0001665347807654746
+        percentile: [0.9989940536022186, 0.9992686152458191, 0.9996229827404022, 0.9997354307770729]
+        percentile_00_5: 0.9989940536022186
+        percentile_10_0: 0.9992686152458191
+        percentile_90_0: 0.9996229827404022
+        percentile_99_5: 0.9997354307770729
+      image_intensity: {max: 3679.0, mean: -844.2018181295956, median: -418.29411764705884,
+        min: -3435.0, stdev: 1201.139310948989, percentile_00_5: -3025.764705882353,
+        percentile_10_0: -3024.0, percentile_90_0: 171.8235294117647, percentile_99_5: 549.6764705882352}
+    - foreground_percentage:
+        max: 0.0010077509796246886
+        mean: 0.0005575406137401896
+        median: 0.0005228859954513609
+        min: 0.00024824481806717813
+        stdev: 0.00016653431185720356
+        percentile: [0.0002645564840349834, 0.0003769993782043457, 0.0007313874608371407,
+          0.0010059123393148183]
+        percentile_00_5: 0.0002645564840349834
+        percentile_10_0: 0.0003769993782043457
+        percentile_90_0: 0.0007313874608371407
+        percentile_99_5: 0.0010059123393148183
+      image_intensity: {max: 1837.0, mean: 335.0523780373966, median: 331.4117647058824,
+        min: -370.0, stdev: 89.00604461221134, percentile_00_5: 150.04779344446519,
+        percentile_10_0: 230.02941176470588, percentile_90_0: 440.2647058823529, percentile_99_5: 622.3685374540441}
+  n_cases: 34
+stats_by_cases:
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_1.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_1.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 204]
+    channels: 1
+    cropped_shape:
+    - [512, 501, 204]
+    spacing: [0.41601600000000005, 0.41601600000000005, 0.6250000000000001]
+    sizemm: [213, 213, 127]
+    intensity:
+    - max: 1659.0
+      mean: -819.5282592773438
+      median: -582.0
+      min: -3024.0
+      stdev: 1164.911376953125
+      percentile: [-3024.0, -3024.0, 166.0, 470.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 166.0
+      percentile_99_5: 470.0
+  image_foreground_stats:
+    intensity:
+    - max: 568.0
+      mean: 348.4211730957031
+      median: 351.0
+      min: 36.0
+      stdev: 61.69784164428711
+      percentile: [238.0, 264.0, 428.0, 491.0]
+      percentile_00_5: 238.0
+      percentile_10_0: 264.0
+      percentile_90_0: 428.0
+      percentile_99_5: 491.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 568.0
+      mean: 348.4211730957031
+      median: 351.0
+      min: 36.0
+      stdev: 61.69784164428711
+      percentile: [238.0, 264.0, 428.0, 491.0]
+      percentile_00_5: 238.0
+      percentile_10_0: 264.0
+      percentile_90_0: 428.0
+      percentile_99_5: 491.0
+    label:
+    - image_intensity:
+      - max: 1659.0
+        mean: -858.5112915039062
+        median: -637.0
+        min: -3024.0
+        stdev: 1186.965087890625
+        percentile: [-3024.0, -3024.0, 162.0, 469.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 162.0
+        percentile_99_5: 469.0
+      foreground_percentage: 0.9993248581886292
+    - image_intensity:
+      - max: 568.0
+        mean: 348.4211730957031
+        median: 351.0
+        min: 36.0
+        stdev: 61.69784164428711
+        percentile: [238.0, 264.0, 428.0, 491.0]
+        percentile_00_5: 238.0
+        percentile_10_0: 264.0
+        percentile_90_0: 428.0
+        percentile_99_5: 491.0
+      foreground_percentage: 0.0006751266191713512
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_2.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_2.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 183]
+    channels: 1
+    cropped_shape:
+    - [512, 472, 183]
+    spacing: [0.404297, 0.404297, 0.625]
+    sizemm: [207, 207, 114]
+    intensity:
+    - max: 1425.0
+      mean: -745.2726440429688
+      median: -182.0
+      min: -3024.0
+      stdev: 1135.634521484375
+      percentile: [-3024.0, -3024.0, 199.0, 539.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 199.0
+      percentile_99_5: 539.0
+  image_foreground_stats:
+    intensity:
+    - max: 939.0
+      mean: 370.6348571777344
+      median: 373.0
+      min: -370.0
+      stdev: 97.78535461425781
+      percentile: [-19.510009765625, 272.0, 477.0, 667.0]
+      percentile_00_5: -19.510009765625
+      percentile_10_0: 272.0
+      percentile_90_0: 477.0
+      percentile_99_5: 667.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 939.0
+      mean: 370.6348571777344
+      median: 373.0
+      min: -370.0
+      stdev: 97.78535461425781
+      percentile: [-19.510009765625, 272.0, 477.0, 667.0]
+      percentile_00_5: -19.510009765625
+      percentile_10_0: 272.0
+      percentile_90_0: 477.0
+      percentile_99_5: 667.0
+    label:
+    - image_intensity:
+      - max: 1425.0
+        mean: -864.8532104492188
+        median: -637.0
+        min: -3024.0
+        stdev: 1196.177490234375
+        percentile: [-3024.0, -3024.0, 183.0, 535.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 183.0
+        percentile_99_5: 535.0
+      foreground_percentage: 0.9995591044425964
+    - image_intensity:
+      - max: 939.0
+        mean: 370.6348571777344
+        median: 373.0
+        min: -370.0
+        stdev: 97.78535461425781
+        percentile: [-19.510009765625, 272.0, 477.0, 667.0]
+        percentile_00_5: -19.510009765625
+        percentile_10_0: 272.0
+        percentile_90_0: 477.0
+        percentile_99_5: 667.0
+      foreground_percentage: 0.00044087893911637366
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_3.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_3.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 212]
+    channels: 1
+    cropped_shape:
+    - [512, 501, 212]
+    spacing: [0.382812, 0.382812, 0.625]
+    sizemm: [195, 195, 132]
+    intensity:
+    - max: 1761.0
+      mean: -787.7003784179688
+      median: -340.0
+      min: -3024.0
+      stdev: 1190.9337158203125
+      percentile: [-3024.0, -3024.0, 212.0, 599.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 212.0
+      percentile_99_5: 599.0
+  image_foreground_stats:
+    intensity:
+    - max: 700.0
+      mean: 421.140869140625
+      median: 423.0
+      min: -74.0
+      stdev: 96.82827758789062
+      percentile: [192.0, 295.0, 546.0, 609.0]
+      percentile_00_5: 192.0
+      percentile_10_0: 295.0
+      percentile_90_0: 546.0
+      percentile_99_5: 609.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 700.0
+      mean: 421.140869140625
+      median: 423.0
+      min: -74.0
+      stdev: 96.82827758789062
+      percentile: [192.0, 295.0, 546.0, 609.0]
+      percentile_00_5: 192.0
+      percentile_10_0: 295.0
+      percentile_90_0: 546.0
+      percentile_99_5: 609.0
+    label:
+    - image_intensity:
+      - max: 1761.0
+        mean: -827.5418090820312
+        median: -501.0
+        min: -3024.0
+        stdev: 1212.95361328125
+        percentile: [-3024.0, -3024.0, 203.0, 598.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 203.0
+        percentile_99_5: 598.0
+      foreground_percentage: 0.9992932677268982
+    - image_intensity:
+      - max: 700.0
+        mean: 421.140869140625
+        median: 423.0
+        min: -74.0
+        stdev: 96.82827758789062
+        percentile: [192.0, 295.0, 546.0, 609.0]
+        percentile_00_5: 192.0
+        percentile_10_0: 295.0
+        percentile_90_0: 546.0
+        percentile_99_5: 609.0
+      foreground_percentage: 0.0007067086407914758
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_4.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_4.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 211]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 211]
+    spacing: [0.380859, 0.380859, 0.6250000000000002]
+    sizemm: [194, 194, 131]
+    intensity:
+    - max: 1734.0
+      mean: -784.5255737304688
+      median: -155.0
+      min: -3024.0
+      stdev: 1232.7105712890625
+      percentile: [-3024.0, -3024.0, 284.0, 998.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 284.0
+      percentile_99_5: 998.0
+  image_foreground_stats:
+    intensity:
+    - max: 638.0
+      mean: 398.86346435546875
+      median: 399.0
+      min: -11.0
+      stdev: 80.75527954101562
+      percentile: [159.0, 306.0, 502.0, 579.0]
+      percentile_00_5: 159.0
+      percentile_10_0: 306.0
+      percentile_90_0: 502.0
+      percentile_99_5: 579.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 638.0
+      mean: 398.86346435546875
+      median: 399.0
+      min: -11.0
+      stdev: 80.75527954101562
+      percentile: [159.0, 306.0, 502.0, 579.0]
+      percentile_00_5: 159.0
+      percentile_10_0: 306.0
+      percentile_90_0: 502.0
+      percentile_99_5: 579.0
+    label:
+    - image_intensity:
+      - max: 1734.0
+        mean: -785.0697631835938
+        median: -155.0
+        min: -3024.0
+        stdev: 1232.7314453125
+        percentile: [-3024.0, -3024.0, 281.0, 999.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 281.0
+        percentile_99_5: 999.0
+      foreground_percentage: 0.9995402693748474
+    - image_intensity:
+      - max: 638.0
+        mean: 398.86346435546875
+        median: 399.0
+        min: -11.0
+        stdev: 80.75527954101562
+        percentile: [159.0, 306.0, 502.0, 579.0]
+        percentile_00_5: 159.0
+        percentile_10_0: 306.0
+        percentile_90_0: 502.0
+        percentile_99_5: 579.0
+      foreground_percentage: 0.0004596981452777982
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_6.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_6.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 217]
+    channels: 1
+    cropped_shape:
+    - [512, 495, 217]
+    spacing: [0.3945310000000001, 0.3945310000000001, 0.625]
+    sizemm: [201, 201, 135]
+    intensity:
+    - max: 1852.0
+      mean: -710.625
+      median: -87.0
+      min: -3024.0
+      stdev: 1192.6329345703125
+      percentile: [-3024.0, -3024.0, 200.0, 546.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 200.0
+      percentile_99_5: 546.0
+  image_foreground_stats:
+    intensity:
+    - max: 1592.0
+      mean: 416.4504089355469
+      median: 407.0
+      min: 89.0
+      stdev: 118.42240905761719
+      percentile: [256.05999755859375, 295.0, 516.0, 1077.94140625]
+      percentile_00_5: 256.05999755859375
+      percentile_10_0: 295.0
+      percentile_90_0: 516.0
+      percentile_99_5: 1077.94140625
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1592.0
+      mean: 416.4504089355469
+      median: 407.0
+      min: 89.0
+      stdev: 118.42240905761719
+      percentile: [256.05999755859375, 295.0, 516.0, 1077.94140625]
+      percentile_00_5: 256.05999755859375
+      percentile_10_0: 295.0
+      percentile_90_0: 516.0
+      percentile_99_5: 1077.94140625
+    label:
+    - image_intensity:
+      - max: 1852.0
+        mean: -770.9070434570312
+        median: -106.0
+        min: -3024.0
+        stdev: 1226.681640625
+        percentile: [-3024.0, -3024.0, 190.0, 544.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 190.0
+        percentile_99_5: 544.0
+      foreground_percentage: 0.9993704557418823
+    - image_intensity:
+      - max: 1592.0
+        mean: 416.4504089355469
+        median: 407.0
+        min: 89.0
+        stdev: 118.42240905761719
+        percentile: [256.05999755859375, 295.0, 516.0, 1077.94140625]
+        percentile_00_5: 256.05999755859375
+        percentile_10_0: 295.0
+        percentile_90_0: 516.0
+        percentile_99_5: 1077.94140625
+      foreground_percentage: 0.0006295656785368919
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_7.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_7.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 202]
+    channels: 1
+    cropped_shape:
+    - [512, 484, 202]
+    spacing: [0.400391, 0.400391, 0.6249999999999998]
+    sizemm: [205, 205, 126]
+    intensity:
+    - max: 1678.0
+      mean: -804.117431640625
+      median: -681.0
+      min: -3024.0
+      stdev: 1135.712158203125
+      percentile: [-3024.0, -3024.0, 184.0, 642.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 184.0
+      percentile_99_5: 642.0
+  image_foreground_stats:
+    intensity:
+    - max: 759.0
+      mean: 423.1094055175781
+      median: 416.0
+      min: 228.0
+      stdev: 119.96390533447266
+      percentile: [230.0, 264.0, 589.0, 659.0]
+      percentile_00_5: 230.0
+      percentile_10_0: 264.0
+      percentile_90_0: 589.0
+      percentile_99_5: 659.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 759.0
+      mean: 423.1094055175781
+      median: 416.0
+      min: 228.0
+      stdev: 119.96390533447266
+      percentile: [230.0, 264.0, 589.0, 659.0]
+      percentile_00_5: 230.0
+      percentile_10_0: 264.0
+      percentile_90_0: 589.0
+      percentile_99_5: 659.0
+    label:
+    - image_intensity:
+      - max: 1678.0
+        mean: -890.7166137695312
+        median: -738.0
+        min: -3024.0
+        stdev: 1181.567138671875
+        percentile: [-3024.0, -3024.0, 171.0, 640.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 171.0
+        percentile_99_5: 640.0
+      foreground_percentage: 0.9993715286254883
+    - image_intensity:
+      - max: 759.0
+        mean: 423.1094055175781
+        median: 416.0
+        min: 228.0
+        stdev: 119.96390533447266
+        percentile: [230.0, 264.0, 589.0, 659.0]
+        percentile_00_5: 230.0
+        percentile_10_0: 264.0
+        percentile_90_0: 589.0
+        percentile_99_5: 659.0
+      foreground_percentage: 0.0006285185809247196
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_8.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_8.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 493, 224]
+    spacing: [0.404297, 0.404297, 0.625]
+    sizemm: [207, 207, 140]
+    intensity:
+    - max: 1879.0
+      mean: -769.8472290039062
+      median: -235.0
+      min: -3024.0
+      stdev: 1173.84521484375
+      percentile: [-3024.0, -3024.0, 196.0, 591.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 196.0
+      percentile_99_5: 591.0
+  image_foreground_stats:
+    intensity:
+    - max: 545.0
+      mean: 309.0392150878906
+      median: 308.0
+      min: -55.0
+      stdev: 64.74529266357422
+      percentile: [160.0, 230.0, 394.0, 468.0]
+      percentile_00_5: 160.0
+      percentile_10_0: 230.0
+      percentile_90_0: 394.0
+      percentile_99_5: 468.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 545.0
+      mean: 309.0392150878906
+      median: 308.0
+      min: -55.0
+      stdev: 64.74529266357422
+      percentile: [160.0, 230.0, 394.0, 468.0]
+      percentile_00_5: 160.0
+      percentile_10_0: 230.0
+      percentile_90_0: 394.0
+      percentile_99_5: 468.0
+    label:
+    - image_intensity:
+      - max: 1879.0
+        mean: -834.1693115234375
+        median: -543.0
+        min: -3024.0
+        stdev: 1209.256591796875
+        percentile: [-3024.0, -3024.0, 188.0, 583.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 188.0
+        percentile_99_5: 583.0
+      foreground_percentage: 0.9993710517883301
+    - image_intensity:
+      - max: 545.0
+        mean: 309.0392150878906
+        median: 308.0
+        min: -55.0
+        stdev: 64.74529266357422
+        percentile: [160.0, 230.0, 394.0, 468.0]
+        percentile_00_5: 160.0
+        percentile_10_0: 230.0
+        percentile_90_0: 394.0
+        percentile_99_5: 468.0
+      foreground_percentage: 0.0006289652665145695
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_10.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_10.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 209]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 209]
+    spacing: [0.43554700000000013, 0.43554700000000013, 0.6250000000000001]
+    sizemm: [223, 223, 130]
+    intensity:
+    - max: 2864.0
+      mean: -868.3723754882812
+      median: -701.0
+      min: -3024.0
+      stdev: 1189.202880859375
+      percentile: [-3024.0, -3024.0, 166.0, 581.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 166.0
+      percentile_99_5: 581.0
+  image_foreground_stats:
+    intensity:
+    - max: 578.0
+      mean: 354.5790710449219
+      median: 358.0
+      min: 215.0
+      stdev: 71.17301177978516
+      percentile: [227.0, 255.0, 448.0, 506.0]
+      percentile_00_5: 227.0
+      percentile_10_0: 255.0
+      percentile_90_0: 448.0
+      percentile_99_5: 506.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 578.0
+      mean: 354.5790710449219
+      median: 358.0
+      min: 215.0
+      stdev: 71.17301177978516
+      percentile: [227.0, 255.0, 448.0, 506.0]
+      percentile_00_5: 227.0
+      percentile_10_0: 255.0
+      percentile_90_0: 448.0
+      percentile_99_5: 506.0
+    label:
+    - image_intensity:
+      - max: 2864.0
+        mean: -869.27685546875
+        median: -702.0
+        min: -3024.0
+        stdev: 1189.1756591796875
+        percentile: [-3024.0, -3024.0, 164.0, 581.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 164.0
+        percentile_99_5: 581.0
+      foreground_percentage: 0.9992609620094299
+    - image_intensity:
+      - max: 578.0
+        mean: 354.5790710449219
+        median: 358.0
+        min: 215.0
+        stdev: 71.17301177978516
+        percentile: [227.0, 255.0, 448.0, 506.0]
+        percentile_00_5: 227.0
+        percentile_10_0: 255.0
+        percentile_90_0: 448.0
+        percentile_99_5: 506.0
+      foreground_percentage: 0.0007390474202111363
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_11.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_11.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 212]
+    channels: 1
+    cropped_shape:
+    - [512, 496, 212]
+    spacing: [0.306641, 0.306641, 0.625]
+    sizemm: [157, 157, 132]
+    intensity:
+    - max: 1454.0
+      mean: -772.3397827148438
+      median: -295.0
+      min: -3024.0
+      stdev: 1179.2828369140625
+      percentile: [-3024.0, -3024.0, 220.0, 544.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 220.0
+      percentile_99_5: 544.0
+  image_foreground_stats:
+    intensity:
+    - max: 591.0
+      mean: 366.6432800292969
+      median: 361.0
+      min: -48.0
+      stdev: 87.71768188476562
+      percentile: [191.0, 256.0, 489.0, 551.0]
+      percentile_00_5: 191.0
+      percentile_10_0: 256.0
+      percentile_90_0: 489.0
+      percentile_99_5: 551.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 591.0
+      mean: 366.6432800292969
+      median: 361.0
+      min: -48.0
+      stdev: 87.71768188476562
+      percentile: [191.0, 256.0, 489.0, 551.0]
+      percentile_00_5: 191.0
+      percentile_10_0: 256.0
+      percentile_90_0: 489.0
+      percentile_99_5: 551.0
+    label:
+    - image_intensity:
+      - max: 1454.0
+        mean: -828.0474853515625
+        median: -482.0
+        min: -3024.0
+        stdev: 1209.892578125
+        percentile: [-3024.0, -3024.0, 199.0, 542.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 199.0
+        percentile_99_5: 542.0
+      foreground_percentage: 0.9990034103393555
+    - image_intensity:
+      - max: 591.0
+        mean: 366.6432800292969
+        median: 361.0
+        min: -48.0
+        stdev: 87.71768188476562
+        percentile: [191.0, 256.0, 489.0, 551.0]
+        percentile_00_5: 191.0
+        percentile_10_0: 256.0
+        percentile_90_0: 489.0
+        percentile_99_5: 551.0
+      foreground_percentage: 0.0009966077050194144
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_12.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_12.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 206]
+    channels: 1
+    cropped_shape:
+    - [512, 483, 206]
+    spacing: [0.369141, 0.369141, 0.625]
+    sizemm: [189, 189, 128]
+    intensity:
+    - max: 1815.0
+      mean: -720.1544799804688
+      median: -145.0
+      min: -3024.0
+      stdev: 1165.0291748046875
+      percentile: [-3024.0, -3024.0, 241.0, 642.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 241.0
+      percentile_99_5: 642.0
+  image_foreground_stats:
+    intensity:
+    - max: 840.0
+      mean: 411.8125305175781
+      median: 408.0
+      min: 70.0
+      stdev: 96.67601013183594
+      percentile: [206.0, 288.0, 540.0, 664.0]
+      percentile_00_5: 206.0
+      percentile_10_0: 288.0
+      percentile_90_0: 540.0
+      percentile_99_5: 664.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 840.0
+      mean: 411.8125305175781
+      median: 408.0
+      min: 70.0
+      stdev: 96.67601013183594
+      percentile: [206.0, 288.0, 540.0, 664.0]
+      percentile_00_5: 206.0
+      percentile_10_0: 288.0
+      percentile_90_0: 540.0
+      percentile_99_5: 664.0
+    label:
+    - image_intensity:
+      - max: 1815.0
+        mean: -814.1123046875
+        median: -239.0
+        min: -3024.0
+        stdev: 1215.16943359375
+        percentile: [-3024.0, -3024.0, 220.0, 637.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 220.0
+        percentile_99_5: 637.0
+      foreground_percentage: 0.9994868040084839
+    - image_intensity:
+      - max: 840.0
+        mean: 411.8125305175781
+        median: 408.0
+        min: 70.0
+        stdev: 96.67601013183594
+        percentile: [206.0, 288.0, 540.0, 664.0]
+        percentile_00_5: 206.0
+        percentile_10_0: 288.0
+        percentile_90_0: 540.0
+        percentile_99_5: 664.0
+      foreground_percentage: 0.0005131879006512463
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_13.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_13.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 199]
+    channels: 1
+    cropped_shape:
+    - [512, 497, 199]
+    spacing: [0.333984, 0.333984, 0.625]
+    sizemm: [170, 170, 124]
+    intensity:
+    - max: 1529.0
+      mean: -807.655517578125
+      median: -625.0
+      min: -3024.0
+      stdev: 1176.5228271484375
+      percentile: [-3024.0, -3024.0, 202.0, 709.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 202.0
+      percentile_99_5: 709.0
+  image_foreground_stats:
+    intensity:
+    - max: 765.0
+      mean: 433.66845703125
+      median: 417.0
+      min: 208.0
+      stdev: 135.64059448242188
+      percentile: [234.0, 263.0, 634.0, 711.0]
+      percentile_00_5: 234.0
+      percentile_10_0: 263.0
+      percentile_90_0: 634.0
+      percentile_99_5: 711.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 765.0
+      mean: 433.66845703125
+      median: 417.0
+      min: 208.0
+      stdev: 135.64059448242188
+      percentile: [234.0, 263.0, 634.0, 711.0]
+      percentile_00_5: 234.0
+      percentile_10_0: 263.0
+      percentile_90_0: 634.0
+      percentile_99_5: 711.0
+    label:
+    - image_intensity:
+      - max: 1529.0
+        mean: -859.5440063476562
+        median: -709.0
+        min: -3024.0
+        stdev: 1204.30322265625
+        percentile: [-3024.0, -3024.0, 189.0, 708.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 189.0
+        percentile_99_5: 708.0
+      foreground_percentage: 0.9989922046661377
+    - image_intensity:
+      - max: 765.0
+        mean: 433.66845703125
+        median: 417.0
+        min: 208.0
+        stdev: 135.64059448242188
+        percentile: [234.0, 263.0, 634.0, 711.0]
+        percentile_00_5: 234.0
+        percentile_10_0: 263.0
+        percentile_90_0: 634.0
+        percentile_99_5: 711.0
+      foreground_percentage: 0.0010077509796246886
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_14.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_14.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 216]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 216]
+    spacing: [0.36523400000000006, 0.36523400000000006, 0.625]
+    sizemm: [186, 186, 135]
+    intensity:
+    - max: 1666.0
+      mean: -765.1441650390625
+      median: -136.0
+      min: -3024.0
+      stdev: 1229.786376953125
+      percentile: [-3024.0, -3024.0, 269.0, 614.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 269.0
+      percentile_99_5: 614.0
+  image_foreground_stats:
+    intensity:
+    - max: 755.0
+      mean: 382.7659606933594
+      median: 370.0
+      min: 125.0
+      stdev: 115.03929901123047
+      percentile: [212.0, 236.0, 548.0, 637.0]
+      percentile_00_5: 212.0
+      percentile_10_0: 236.0
+      percentile_90_0: 548.0
+      percentile_99_5: 637.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 755.0
+      mean: 382.7659606933594
+      median: 370.0
+      min: 125.0
+      stdev: 115.03929901123047
+      percentile: [212.0, 236.0, 548.0, 637.0]
+      percentile_00_5: 212.0
+      percentile_10_0: 236.0
+      percentile_90_0: 548.0
+      percentile_99_5: 637.0
+    label:
+    - image_intensity:
+      - max: 1666.0
+        mean: -766.1153564453125
+        median: -136.0
+        min: -3024.0
+        stdev: 1229.848388671875
+        percentile: [-3024.0, -3024.0, 268.0, 614.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 268.0
+        percentile_99_5: 614.0
+      foreground_percentage: 0.9991546869277954
+    - image_intensity:
+      - max: 755.0
+        mean: 382.7659606933594
+        median: 370.0
+        min: 125.0
+        stdev: 115.03929901123047
+        percentile: [212.0, 236.0, 548.0, 637.0]
+        percentile_00_5: 212.0
+        percentile_10_0: 236.0
+        percentile_90_0: 548.0
+        percentile_99_5: 637.0
+      foreground_percentage: 0.0008453086484223604
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_15.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_15.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 207]
+    channels: 1
+    cropped_shape:
+    - [512, 481, 207]
+    spacing: [0.3847659999999999, 0.3847659999999999, 0.625]
+    sizemm: [197, 197, 129]
+    intensity:
+    - max: 2017.0
+      mean: -759.1810302734375
+      median: -365.0
+      min: -3024.0
+      stdev: 1144.394287109375
+      percentile: [-3024.0, -3024.0, 173.0, 535.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 173.0
+      percentile_99_5: 535.0
+  image_foreground_stats:
+    intensity:
+    - max: 593.0
+      mean: 420.9282531738281
+      median: 430.0
+      min: 287.0
+      stdev: 70.5457992553711
+      percentile: [288.0, 316.0, 507.0, 552.0]
+      percentile_00_5: 288.0
+      percentile_10_0: 316.0
+      percentile_90_0: 507.0
+      percentile_99_5: 552.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 593.0
+      mean: 420.9282531738281
+      median: 430.0
+      min: 287.0
+      stdev: 70.5457992553711
+      percentile: [288.0, 316.0, 507.0, 552.0]
+      percentile_00_5: 288.0
+      percentile_10_0: 316.0
+      percentile_90_0: 507.0
+      percentile_99_5: 552.0
+    label:
+    - image_intensity:
+      - max: 2017.0
+        mean: -856.0023193359375
+        median: -646.0
+        min: -3024.0
+        stdev: 1195.547607421875
+        percentile: [-3024.0, -3024.0, 161.0, 533.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 161.0
+        percentile_99_5: 533.0
+      foreground_percentage: 0.9994556903839111
+    - image_intensity:
+      - max: 593.0
+        mean: 420.9282531738281
+        median: 430.0
+        min: 287.0
+        stdev: 70.5457992553711
+        percentile: [288.0, 316.0, 507.0, 552.0]
+        percentile_00_5: 288.0
+        percentile_10_0: 316.0
+        percentile_90_0: 507.0
+        percentile_99_5: 552.0
+      foreground_percentage: 0.000544340698979795
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_16.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_16.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 207]
+    channels: 1
+    cropped_shape:
+    - [512, 504, 207]
+    spacing: [0.349609, 0.349609, 0.6249999999999996]
+    sizemm: [178, 178, 129]
+    intensity:
+    - max: 1896.0
+      mean: -786.6533203125
+      median: -428.0
+      min: -3024.0
+      stdev: 1207.7235107421875
+      percentile: [-3024.0, -3024.0, 256.0, 602.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 256.0
+      percentile_99_5: 602.0
+  image_foreground_stats:
+    intensity:
+    - max: 625.0
+      mean: 423.6415100097656
+      median: 424.0
+      min: 287.0
+      stdev: 80.95710754394531
+      percentile: [288.0, 313.0, 533.0, 586.0]
+      percentile_00_5: 288.0
+      percentile_10_0: 313.0
+      percentile_90_0: 533.0
+      percentile_99_5: 586.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 625.0
+      mean: 423.6415100097656
+      median: 424.0
+      min: 287.0
+      stdev: 80.95710754394531
+      percentile: [288.0, 313.0, 533.0, 586.0]
+      percentile_00_5: 288.0
+      percentile_10_0: 313.0
+      percentile_90_0: 533.0
+      percentile_99_5: 586.0
+    label:
+    - image_intensity:
+      - max: 1896.0
+        mean: -816.62060546875
+        median: -534.0
+        min: -3024.0
+        stdev: 1224.24560546875
+        percentile: [-3024.0, -3024.0, 249.0, 601.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 249.0
+        percentile_99_5: 601.0
+      foreground_percentage: 0.9992864727973938
+    - image_intensity:
+      - max: 625.0
+        mean: 423.6415100097656
+        median: 424.0
+        min: 287.0
+        stdev: 80.95710754394531
+        percentile: [288.0, 313.0, 533.0, 586.0]
+        percentile_00_5: 288.0
+        percentile_10_0: 313.0
+        percentile_90_0: 533.0
+        percentile_99_5: 586.0
+      foreground_percentage: 0.0007135142222978175
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_17.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_17.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 495, 224]
+    spacing: [0.359375, 0.359375, 0.6249999999999998]
+    sizemm: [184, 184, 139]
+    intensity:
+    - max: 1738.0
+      mean: -727.4609375
+      median: -126.0
+      min: -3435.0
+      stdev: 1201.3818359375
+      percentile: [-3028.0, -3023.0, 251.0, 891.0]
+      percentile_00_5: -3028.0
+      percentile_10_0: -3023.0
+      percentile_90_0: 251.0
+      percentile_99_5: 891.0
+  image_foreground_stats:
+    intensity:
+    - max: 702.0
+      mean: 442.3954162597656
+      median: 443.0
+      min: 287.0
+      stdev: 89.11393737792969
+      percentile: [288.0, 319.0, 562.0, 635.0]
+      percentile_00_5: 288.0
+      percentile_10_0: 319.0
+      percentile_90_0: 562.0
+      percentile_99_5: 635.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 702.0
+      mean: 442.3954162597656
+      median: 443.0
+      min: 287.0
+      stdev: 89.11393737792969
+      percentile: [288.0, 319.0, 562.0, 635.0]
+      percentile_00_5: 288.0
+      percentile_10_0: 319.0
+      percentile_90_0: 562.0
+      percentile_99_5: 635.0
+    label:
+    - image_intensity:
+      - max: 1738.0
+        mean: -787.0538330078125
+        median: -143.0
+        min: -3435.0
+        stdev: 1234.386962890625
+        percentile: [-3028.0, -3024.0, 237.0, 876.0]
+        percentile_00_5: -3028.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 237.0
+        percentile_99_5: 876.0
+      foreground_percentage: 0.9995512962341309
+    - image_intensity:
+      - max: 702.0
+        mean: 442.3954162597656
+        median: 443.0
+        min: 287.0
+        stdev: 89.11393737792969
+        percentile: [288.0, 319.0, 562.0, 635.0]
+        percentile_00_5: 288.0
+        percentile_10_0: 319.0
+        percentile_90_0: 562.0
+        percentile_99_5: 635.0
+      foreground_percentage: 0.00044868674012832344
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_19.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_19.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 500, 224]
+    spacing: [0.38476601240000013, 0.38476601240000013, 0.625]
+    sizemm: [197, 197, 140]
+    intensity:
+    - max: 2047.0
+      mean: -831.0969848632812
+      median: -263.0
+      min: -3282.0
+      stdev: 1164.0911865234375
+      percentile: [-3027.0, -3023.0, 121.0, 469.0]
+      percentile_00_5: -3027.0
+      percentile_10_0: -3023.0
+      percentile_90_0: 121.0
+      percentile_99_5: 469.0
+  image_foreground_stats:
+    intensity:
+    - max: 455.0
+      mean: 254.66685485839844
+      median: 249.0
+      min: 2.0
+      stdev: 57.647945404052734
+      percentile: [120.0, 186.0, 336.0, 394.0]
+      percentile_00_5: 120.0
+      percentile_10_0: 186.0
+      percentile_90_0: 336.0
+      percentile_99_5: 394.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 455.0
+      mean: 254.66685485839844
+      median: 249.0
+      min: 2.0
+      stdev: 57.647945404052734
+      percentile: [120.0, 186.0, 336.0, 394.0]
+      percentile_00_5: 120.0
+      percentile_10_0: 186.0
+      percentile_90_0: 336.0
+      percentile_99_5: 394.0
+    label:
+    - image_intensity:
+      - max: 2047.0
+        mean: -872.5818481445312
+        median: -527.0
+        min: -3282.0
+        stdev: 1187.6390380859375
+        percentile: [-3027.0, -3024.0, 120.0, 463.0]
+        percentile_00_5: -3027.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 120.0
+        percentile_99_5: 463.0
+      foreground_percentage: 0.9995924830436707
+    - image_intensity:
+      - max: 455.0
+        mean: 254.66685485839844
+        median: 249.0
+        min: 2.0
+        stdev: 57.647945404052734
+        percentile: [120.0, 186.0, 336.0, 394.0]
+        percentile_00_5: 120.0
+        percentile_10_0: 186.0
+        percentile_90_0: 336.0
+        percentile_99_5: 394.0
+      foreground_percentage: 0.0004074573516845703
+- image_filepath: data/datasets/asoca/Normal/CTCA/Normal_20.nrrd
+  label_filepath: data/datasets/asoca/Normal/Annotations/Normal_20.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 494, 224]
+    spacing: [0.4199219942000001, 0.4199219942000001, 0.625]
+    sizemm: [215, 215, 140]
+    intensity:
+    - max: 1875.0
+      mean: -788.8157958984375
+      median: -178.0
+      min: -3218.0
+      stdev: 1165.706298828125
+      percentile: [-3027.0, -3023.0, 147.0, 560.0]
+      percentile_00_5: -3027.0
+      percentile_10_0: -3023.0
+      percentile_90_0: 147.0
+      percentile_99_5: 560.0
+  image_foreground_stats:
+    intensity:
+    - max: 638.0
+      mean: 345.29571533203125
+      median: 340.0
+      min: 184.0
+      stdev: 94.04998016357422
+      percentile: [192.0, 223.0, 474.0, 570.275390625]
+      percentile_00_5: 192.0
+      percentile_10_0: 223.0
+      percentile_90_0: 474.0
+      percentile_99_5: 570.275390625
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 638.0
+      mean: 345.29571533203125
+      median: 340.0
+      min: 184.0
+      stdev: 94.04998016357422
+      percentile: [192.0, 223.0, 474.0, 570.275390625]
+      percentile_00_5: 192.0
+      percentile_10_0: 223.0
+      percentile_90_0: 474.0
+      percentile_99_5: 570.275390625
+    label:
+    - image_intensity:
+      - max: 1875.0
+        mean: -849.3905639648438
+        median: -442.0
+        min: -3218.0
+        stdev: 1199.3343505859375
+        percentile: [-3027.0, -3024.0, 143.0, 558.0]
+        percentile_00_5: -3027.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 143.0
+        percentile_99_5: 558.0
+      foreground_percentage: 0.999578595161438
+    - image_intensity:
+      - max: 638.0
+        mean: 345.29571533203125
+        median: 340.0
+        min: 184.0
+        stdev: 94.04998016357422
+        percentile: [192.0, 223.0, 474.0, 570.275390625]
+        percentile_00_5: 192.0
+        percentile_10_0: 223.0
+        percentile_90_0: 474.0
+        percentile_99_5: 570.275390625
+      foreground_percentage: 0.0004214218643028289
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_1.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_1.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 224]
+    spacing: [0.3867189884, 0.3867189884, 0.625]
+    sizemm: [198, 198, 140]
+    intensity:
+    - max: 3214.0
+      mean: -846.0358276367188
+      median: -155.0
+      min: -3182.0
+      stdev: 1188.6282958984375
+      percentile: [-3027.0, -3024.0, 113.0, 394.0]
+      percentile_00_5: -3027.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 113.0
+      percentile_99_5: 394.0
+  image_foreground_stats:
+    intensity:
+    - max: 492.0
+      mean: 255.45858764648438
+      median: 249.0
+      min: -22.0
+      stdev: 59.0437126159668
+      percentile: [104.0, 191.0, 336.0, 426.095703125]
+      percentile_00_5: 104.0
+      percentile_10_0: 191.0
+      percentile_90_0: 336.0
+      percentile_99_5: 426.095703125
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 492.0
+      mean: 255.45858764648438
+      median: 249.0
+      min: -22.0
+      stdev: 59.0437126159668
+      percentile: [104.0, 191.0, 336.0, 426.095703125]
+      percentile_00_5: 104.0
+      percentile_10_0: 191.0
+      percentile_90_0: 336.0
+      percentile_99_5: 426.095703125
+    label:
+    - image_intensity:
+      - max: 3214.0
+        mean: -846.4183959960938
+        median: -155.0
+        min: -3182.0
+        stdev: 1188.6568603515625
+        percentile: [-3027.0, -3024.0, 113.0, 393.0]
+        percentile_00_5: -3027.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 113.0
+        percentile_99_5: 393.0
+      foreground_percentage: 0.9996528625488281
+    - image_intensity:
+      - max: 492.0
+        mean: 255.45858764648438
+        median: 249.0
+        min: -22.0
+        stdev: 59.0437126159668
+        percentile: [104.0, 191.0, 336.0, 426.095703125]
+        percentile_00_5: 104.0
+        percentile_10_0: 191.0
+        percentile_90_0: 336.0
+        percentile_99_5: 426.095703125
+      foreground_percentage: 0.0003471033996902406
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_2.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_2.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 473, 224]
+    spacing: [0.4375, 0.4375, 0.625]
+    sizemm: [224, 224, 140]
+    intensity:
+    - max: 3203.0
+      mean: -703.4056396484375
+      median: -114.0
+      min: -3258.0
+      stdev: 1140.564453125
+      percentile: [-3027.0, -3023.0, 138.0, 523.0]
+      percentile_00_5: -3027.0
+      percentile_10_0: -3023.0
+      percentile_90_0: 138.0
+      percentile_99_5: 523.0
+  image_foreground_stats:
+    intensity:
+    - max: 574.0
+      mean: 320.5977783203125
+      median: 321.0
+      min: -74.0
+      stdev: 89.27978515625
+      percentile: [72.75999450683594, 210.0, 438.0, 516.1201171875]
+      percentile_00_5: 72.75999450683594
+      percentile_10_0: 210.0
+      percentile_90_0: 438.0
+      percentile_99_5: 516.1201171875
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 574.0
+      mean: 320.5977783203125
+      median: 321.0
+      min: -74.0
+      stdev: 89.27978515625
+      percentile: [72.75999450683594, 210.0, 438.0, 516.1201171875]
+      percentile_00_5: 72.75999450683594
+      percentile_10_0: 210.0
+      percentile_90_0: 438.0
+      percentile_99_5: 516.1201171875
+    label:
+    - image_intensity:
+      - max: 3203.0
+        mean: -822.924072265625
+        median: -138.0
+        min: -3258.0
+        stdev: 1204.26171875
+        percentile: [-3027.0, -3024.0, 128.0, 520.0]
+        percentile_00_5: -3027.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 128.0
+        percentile_99_5: 520.0
+      foreground_percentage: 0.9997517466545105
+    - image_intensity:
+      - max: 574.0
+        mean: 320.5977783203125
+        median: 321.0
+        min: -74.0
+        stdev: 89.27978515625
+        percentile: [72.75999450683594, 210.0, 438.0, 516.1201171875]
+        percentile_00_5: 72.75999450683594
+        percentile_10_0: 210.0
+        percentile_90_0: 438.0
+        percentile_99_5: 516.1201171875
+      foreground_percentage: 0.00024824481806717813
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_3.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_3.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 224]
+    spacing: [0.4414060116, 0.4414060116, 0.625]
+    sizemm: [225, 225, 140]
+    intensity:
+    - max: 1480.0
+      mean: -879.96142578125
+      median: -651.0
+      min: -3153.0
+      stdev: 1180.90869140625
+      percentile: [-3027.0, -3024.0, 118.0, 369.0]
+      percentile_00_5: -3027.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 118.0
+      percentile_99_5: 369.0
+  image_foreground_stats:
+    intensity:
+    - max: 793.0
+      mean: 258.31134033203125
+      median: 261.0
+      min: -14.0
+      stdev: 66.88123321533203
+      percentile: [65.0, 178.0, 333.0, 485.0]
+      percentile_00_5: 65.0
+      percentile_10_0: 178.0
+      percentile_90_0: 333.0
+      percentile_99_5: 485.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 793.0
+      mean: 258.31134033203125
+      median: 261.0
+      min: -14.0
+      stdev: 66.88123321533203
+      percentile: [65.0, 178.0, 333.0, 485.0]
+      percentile_00_5: 65.0
+      percentile_10_0: 178.0
+      percentile_90_0: 333.0
+      percentile_99_5: 485.0
+    label:
+    - image_intensity:
+      - max: 1480.0
+        mean: -880.4679565429688
+        median: -653.0
+        min: -3153.0
+        stdev: 1180.9263916015625
+        percentile: [-3027.0, -3024.0, 117.0, 369.0]
+        percentile_00_5: -3027.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 117.0
+        percentile_99_5: 369.0
+      foreground_percentage: 0.999555230140686
+    - image_intensity:
+      - max: 793.0
+        mean: 258.31134033203125
+        median: 261.0
+        min: -14.0
+        stdev: 66.88123321533203
+        percentile: [65.0, 178.0, 333.0, 485.0]
+        percentile_00_5: 65.0
+        percentile_10_0: 178.0
+        percentile_90_0: 333.0
+        percentile_99_5: 485.0
+      foreground_percentage: 0.00044476985931396484
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_5.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_5.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 497, 224]
+    spacing: [0.44531199999999993, 0.44531199999999993, 0.6250000000000001]
+    sizemm: [227, 227, 140]
+    intensity:
+    - max: 3071.0
+      mean: -761.4376831054688
+      median: -121.0
+      min: -3024.0
+      stdev: 1174.515869140625
+      percentile: [-3024.0, -3024.0, 129.0, 435.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 129.0
+      percentile_99_5: 435.0
+  image_foreground_stats:
+    intensity:
+    - max: 1312.0
+      mean: 297.5784606933594
+      median: 296.0
+      min: -96.0
+      stdev: 74.17115783691406
+      percentile: [175.0, 210.0, 379.0, 582.8515625]
+      percentile_00_5: 175.0
+      percentile_10_0: 210.0
+      percentile_90_0: 379.0
+      percentile_99_5: 582.8515625
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1312.0
+      mean: 297.5784606933594
+      median: 296.0
+      min: -96.0
+      stdev: 74.17115783691406
+      percentile: [175.0, 210.0, 379.0, 582.8515625]
+      percentile_00_5: 175.0
+      percentile_10_0: 210.0
+      percentile_90_0: 379.0
+      percentile_99_5: 582.8515625
+    label:
+    - image_intensity:
+      - max: 3071.0
+        mean: -814.2623291015625
+        median: -128.0
+        min: -3024.0
+        stdev: 1204.7608642578125
+        percentile: [-3024.0, -3024.0, 125.0, 433.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 125.0
+        percentile_99_5: 433.0
+      foreground_percentage: 0.9994305372238159
+    - image_intensity:
+      - max: 1312.0
+        mean: 297.5784606933594
+        median: 296.0
+        min: -96.0
+        stdev: 74.17115783691406
+        percentile: [175.0, 210.0, 379.0, 582.8515625]
+        percentile_00_5: 175.0
+        percentile_10_0: 210.0
+        percentile_90_0: 379.0
+        percentile_99_5: 582.8515625
+      foreground_percentage: 0.000569462776184082
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_6.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_6.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 511, 224]
+    spacing: [0.4414060116, 0.4414060116, 0.625]
+    sizemm: [225, 225, 140]
+    intensity:
+    - max: 3526.0
+      mean: -841.2576293945312
+      median: -160.0
+      min: -3213.0
+      stdev: 1195.3408203125
+      percentile: [-3028.0, -3024.0, 142.0, 458.0]
+      percentile_00_5: -3028.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 142.0
+      percentile_99_5: 458.0
+  image_foreground_stats:
+    intensity:
+    - max: 1596.0
+      mean: 264.0970458984375
+      median: 247.0
+      min: -92.0
+      stdev: 129.20701599121094
+      percentile: [89.0, 167.0, 335.0, 1167.0]
+      percentile_00_5: 89.0
+      percentile_10_0: 167.0
+      percentile_90_0: 335.0
+      percentile_99_5: 1167.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1596.0
+      mean: 264.0970458984375
+      median: 247.0
+      min: -92.0
+      stdev: 129.20701599121094
+      percentile: [89.0, 167.0, 335.0, 1167.0]
+      percentile_00_5: 89.0
+      percentile_10_0: 167.0
+      percentile_90_0: 335.0
+      percentile_99_5: 1167.0
+    label:
+    - image_intensity:
+      - max: 3526.0
+        mean: -845.6409301757812
+        median: -162.0
+        min: -3213.0
+        stdev: 1197.741455078125
+        percentile: [-3028.0, -3024.0, 141.0, 458.0]
+        percentile_00_5: -3028.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 141.0
+        percentile_99_5: 458.0
+      foreground_percentage: 0.9995612502098083
+    - image_intensity:
+      - max: 1596.0
+        mean: 264.0970458984375
+        median: 247.0
+        min: -92.0
+        stdev: 129.20701599121094
+        percentile: [89.0, 167.0, 335.0, 1167.0]
+        percentile_00_5: 89.0
+        percentile_10_0: 167.0
+        percentile_90_0: 335.0
+        percentile_99_5: 1167.0
+      foreground_percentage: 0.0004387583176139742
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_7.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_7.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 511, 224]
+    spacing: [0.3945310116, 0.3945310116, 0.625]
+    sizemm: [201, 201, 140]
+    intensity:
+    - max: 3300.0
+      mean: -818.185546875
+      median: -297.0
+      min: -3288.0
+      stdev: 1211.91796875
+      percentile: [-3029.0, -3024.0, 200.0, 540.0]
+      percentile_00_5: -3029.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 200.0
+      percentile_99_5: 540.0
+  image_foreground_stats:
+    intensity:
+    - max: 1106.0
+      mean: 331.6986083984375
+      median: 333.0
+      min: -219.0
+      stdev: 95.54881286621094
+      percentile: [75.0, 210.0, 449.0, 572.0]
+      percentile_00_5: 75.0
+      percentile_10_0: 210.0
+      percentile_90_0: 449.0
+      percentile_99_5: 572.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1106.0
+      mean: 331.6986083984375
+      median: 333.0
+      min: -219.0
+      stdev: 95.54881286621094
+      percentile: [75.0, 210.0, 449.0, 572.0]
+      percentile_00_5: 75.0
+      percentile_10_0: 210.0
+      percentile_90_0: 449.0
+      percentile_99_5: 572.0
+    label:
+    - image_intensity:
+      - max: 3300.0
+        mean: -822.7099609375
+        median: -322.0
+        min: -3288.0
+        stdev: 1214.32177734375
+        percentile: [-3029.0, -3024.0, 199.0, 540.0]
+        percentile_00_5: -3029.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 199.0
+        percentile_99_5: 540.0
+      foreground_percentage: 0.9995003938674927
+    - image_intensity:
+      - max: 1106.0
+        mean: 331.6986083984375
+        median: 333.0
+        min: -219.0
+        stdev: 95.54881286621094
+        percentile: [75.0, 210.0, 449.0, 572.0]
+        percentile_00_5: 75.0
+        percentile_10_0: 210.0
+        percentile_90_0: 449.0
+        percentile_99_5: 572.0
+      foreground_percentage: 0.0004995720810256898
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_9.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_9.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 470, 224]
+    spacing: [0.4648439884, 0.4648439884, 0.625]
+    sizemm: [238, 238, 140]
+    intensity:
+    - max: 3401.0
+      mean: -814.779541015625
+      median: -767.0
+      min: -3260.0
+      stdev: 1113.28515625
+      percentile: [-3027.0, -3023.0, 145.0, 561.0]
+      percentile_00_5: -3027.0
+      percentile_10_0: -3023.0
+      percentile_90_0: 145.0
+      percentile_99_5: 561.0
+  image_foreground_stats:
+    intensity:
+    - max: 1424.0
+      mean: 399.3687744140625
+      median: 392.0
+      min: 15.0
+      stdev: 130.07150268554688
+      percentile: [185.0, 264.0, 507.0, 1088.8046875]
+      percentile_00_5: 185.0
+      percentile_10_0: 264.0
+      percentile_90_0: 507.0
+      percentile_99_5: 1088.8046875
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1424.0
+      mean: 399.3687744140625
+      median: 392.0
+      min: 15.0
+      stdev: 130.07150268554688
+      percentile: [185.0, 264.0, 507.0, 1088.8046875]
+      percentile_00_5: 185.0
+      percentile_10_0: 264.0
+      percentile_90_0: 507.0
+      percentile_99_5: 1088.8046875
+    label:
+    - image_intensity:
+      - max: 3401.0
+        mean: -933.5034790039062
+        median: -830.0
+        min: -3260.0
+        stdev: 1171.960693359375
+        percentile: [-3027.0, -3024.0, 133.0, 554.0]
+        percentile_00_5: -3027.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 133.0
+        percentile_99_5: 554.0
+      foreground_percentage: 0.9995497465133667
+    - image_intensity:
+      - max: 1424.0
+        mean: 399.3687744140625
+        median: 392.0
+        min: 15.0
+        stdev: 130.07150268554688
+        percentile: [185.0, 264.0, 507.0, 1088.8046875]
+        percentile_00_5: 185.0
+        percentile_10_0: 264.0
+        percentile_90_0: 507.0
+        percentile_99_5: 1088.8046875
+      foreground_percentage: 0.00045027051237411797
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_10.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_10.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 224]
+    spacing: [0.3867189884, 0.3867189884, 0.625]
+    sizemm: [198, 198, 140]
+    intensity:
+    - max: 3248.0
+      mean: -820.46142578125
+      median: -131.0
+      min: -3274.0
+      stdev: 1206.4385986328125
+      percentile: [-3028.0, -3024.0, 151.0, 445.0]
+      percentile_00_5: -3028.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 151.0
+      percentile_99_5: 445.0
+  image_foreground_stats:
+    intensity:
+    - max: 744.0
+      mean: 189.5379180908203
+      median: 189.0
+      min: -61.0
+      stdev: 61.60382843017578
+      percentile: [23.0, 114.0, 263.0, 365.30078125]
+      percentile_00_5: 23.0
+      percentile_10_0: 114.0
+      percentile_90_0: 263.0
+      percentile_99_5: 365.30078125
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 744.0
+      mean: 189.5379180908203
+      median: 189.0
+      min: -61.0
+      stdev: 61.60382843017578
+      percentile: [23.0, 114.0, 263.0, 365.30078125]
+      percentile_00_5: 23.0
+      percentile_10_0: 114.0
+      percentile_90_0: 263.0
+      percentile_99_5: 365.30078125
+    label:
+    - image_intensity:
+      - max: 3248.0
+        mean: -820.8292236328125
+        median: -132.0
+        min: -3274.0
+        stdev: 1206.503662109375
+        percentile: [-3028.0, -3024.0, 151.0, 445.0]
+        percentile_00_5: -3028.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 151.0
+        percentile_99_5: 445.0
+      foreground_percentage: 0.9996360540390015
+    - image_intensity:
+      - max: 744.0
+        mean: 189.5379180908203
+        median: 189.0
+        min: -61.0
+        stdev: 61.60382843017578
+        percentile: [23.0, 114.0, 263.0, 365.30078125]
+        percentile_00_5: 23.0
+        percentile_10_0: 114.0
+        percentile_90_0: 263.0
+        percentile_99_5: 365.30078125
+      foreground_percentage: 0.00036394596099853516
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_11.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_11.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 510, 224]
+    spacing: [0.49414100000000005, 0.49414100000000005, 0.6250000000000001]
+    sizemm: [253, 253, 140]
+    intensity:
+    - max: 3071.0
+      mean: -943.71435546875
+      median: -822.0
+      min: -3024.0
+      stdev: 1145.12060546875
+      percentile: [-3024.0, -3024.0, 102.0, 358.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 102.0
+      percentile_99_5: 358.0
+  image_foreground_stats:
+    intensity:
+    - max: 413.0
+      mean: 203.13197326660156
+      median: 203.0
+      min: -76.0
+      stdev: 56.69070053100586
+      percentile: [42.00499725341797, 134.0, 276.0, 328.0]
+      percentile_00_5: 42.00499725341797
+      percentile_10_0: 134.0
+      percentile_90_0: 276.0
+      percentile_99_5: 328.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 413.0
+      mean: 203.13197326660156
+      median: 203.0
+      min: -76.0
+      stdev: 56.69070053100586
+      percentile: [42.00499725341797, 134.0, 276.0, 328.0]
+      percentile_00_5: 42.00499725341797
+      percentile_10_0: 134.0
+      percentile_90_0: 276.0
+      percentile_99_5: 328.0
+    label:
+    - image_intensity:
+      - max: 3071.0
+        mean: -951.388427734375
+        median: -823.0
+        min: -3024.0
+        stdev: 1149.4407958984375
+        percentile: [-3024.0, -3024.0, 102.0, 358.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 102.0
+        percentile_99_5: 358.0
+      foreground_percentage: 0.9996389746665955
+    - image_intensity:
+      - max: 413.0
+        mean: 203.13197326660156
+        median: 203.0
+        min: -76.0
+        stdev: 56.69070053100586
+        percentile: [42.00499725341797, 134.0, 276.0, 328.0]
+        percentile_00_5: 42.00499725341797
+        percentile_10_0: 134.0
+        percentile_90_0: 276.0
+        percentile_99_5: 328.0
+      foreground_percentage: 0.0003610679123084992
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_12.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_12.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 500, 224]
+    spacing: [0.3515619934, 0.3515619934, 0.625]
+    sizemm: [179, 179, 140]
+    intensity:
+    - max: 3324.0
+      mean: -762.2597045898438
+      median: -132.0
+      min: -3215.0
+      stdev: 1194.9649658203125
+      percentile: [-3029.0, -3023.0, 230.0, 551.0]
+      percentile_00_5: -3029.0
+      percentile_10_0: -3023.0
+      percentile_90_0: 230.0
+      percentile_99_5: 551.0
+  image_foreground_stats:
+    intensity:
+    - max: 1416.0
+      mean: 267.19439697265625
+      median: 262.0
+      min: -85.0
+      stdev: 95.345703125
+      percentile: [41.55999755859375, 170.0, 358.0, 770.765625]
+      percentile_00_5: 41.55999755859375
+      percentile_10_0: 170.0
+      percentile_90_0: 358.0
+      percentile_99_5: 770.765625
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1416.0
+      mean: 267.19439697265625
+      median: 262.0
+      min: -85.0
+      stdev: 95.345703125
+      percentile: [41.55999755859375, 170.0, 358.0, 770.765625]
+      percentile_00_5: 41.55999755859375
+      percentile_10_0: 170.0
+      percentile_90_0: 358.0
+      percentile_99_5: 770.765625
+    label:
+    - image_intensity:
+      - max: 3324.0
+        mean: -805.5173950195312
+        median: -148.0
+        min: -3215.0
+        stdev: 1219.56103515625
+        percentile: [-3029.0, -3024.0, 224.0, 545.0]
+        percentile_00_5: -3029.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 224.0
+        percentile_99_5: 545.0
+      foreground_percentage: 0.999419093132019
+    - image_intensity:
+      - max: 1416.0
+        mean: 267.19439697265625
+        median: 262.0
+        min: -85.0
+        stdev: 95.345703125
+        percentile: [41.55999755859375, 170.0, 358.0, 770.765625]
+        percentile_00_5: 41.55999755859375
+        percentile_10_0: 170.0
+        percentile_90_0: 358.0
+        percentile_99_5: 770.765625
+      foreground_percentage: 0.0005809409194625914
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_13.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_13.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 224]
+    spacing: [0.3945310116, 0.3945310116, 0.625]
+    sizemm: [201, 201, 140]
+    intensity:
+    - max: 3246.0
+      mean: -843.7522583007812
+      median: -405.0
+      min: -3246.0
+      stdev: 1206.919189453125
+      percentile: [-3029.0, -3024.0, 187.0, 546.0]
+      percentile_00_5: -3029.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 187.0
+      percentile_99_5: 546.0
+  image_foreground_stats:
+    intensity:
+    - max: 1837.0
+      mean: 356.065185546875
+      median: 332.0
+      min: -102.0
+      stdev: 159.57786560058594
+      percentile: [148.0, 216.0, 482.0, 1330.0]
+      percentile_00_5: 148.0
+      percentile_10_0: 216.0
+      percentile_90_0: 482.0
+      percentile_99_5: 1330.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1837.0
+      mean: 356.065185546875
+      median: 332.0
+      min: -102.0
+      stdev: 159.57786560058594
+      percentile: [148.0, 216.0, 482.0, 1330.0]
+      percentile_00_5: 148.0
+      percentile_10_0: 216.0
+      percentile_90_0: 482.0
+      percentile_99_5: 1330.0
+    label:
+    - image_intensity:
+      - max: 3246.0
+        mean: -844.3607177734375
+        median: -410.0
+        min: -3246.0
+        stdev: 1206.917236328125
+        percentile: [-3029.0, -3024.0, 187.0, 545.0]
+        percentile_00_5: -3029.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 187.0
+        percentile_99_5: 545.0
+      foreground_percentage: 0.9994931221008301
+    - image_intensity:
+      - max: 1837.0
+        mean: 356.065185546875
+        median: 332.0
+        min: -102.0
+        stdev: 159.57786560058594
+        percentile: [148.0, 216.0, 482.0, 1330.0]
+        percentile_00_5: 148.0
+        percentile_10_0: 216.0
+        percentile_90_0: 482.0
+        percentile_99_5: 1330.0
+      foreground_percentage: 0.0005068608443252742
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_14.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_14.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 224]
+    spacing: [0.4284380078, 0.4284380078, 0.625]
+    sizemm: [219, 219, 140]
+    intensity:
+    - max: 2301.0
+      mean: -842.6104125976562
+      median: -286.0
+      min: -3296.0
+      stdev: 1203.7738037109375
+      percentile: [-3028.0, -3024.0, 172.0, 612.0]
+      percentile_00_5: -3028.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 172.0
+      percentile_99_5: 612.0
+  image_foreground_stats:
+    intensity:
+    - max: 1576.0
+      mean: 281.6715393066406
+      median: 273.0
+      min: -46.0
+      stdev: 90.76614379882812
+      percentile: [124.0, 198.0, 361.0, 836.375]
+      percentile_00_5: 124.0
+      percentile_10_0: 198.0
+      percentile_90_0: 361.0
+      percentile_99_5: 836.375
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1576.0
+      mean: 281.6715393066406
+      median: 273.0
+      min: -46.0
+      stdev: 90.76614379882812
+      percentile: [124.0, 198.0, 361.0, 836.375]
+      percentile_00_5: 124.0
+      percentile_10_0: 198.0
+      percentile_90_0: 361.0
+      percentile_99_5: 836.375
+    label:
+    - image_intensity:
+      - max: 2301.0
+        mean: -843.20654296875
+        median: -291.0
+        min: -3296.0
+        stdev: 1203.8126220703125
+        percentile: [-3028.0, -3024.0, 171.0, 612.0]
+        percentile_00_5: -3028.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 171.0
+        percentile_99_5: 612.0
+      foreground_percentage: 0.9994698762893677
+    - image_intensity:
+      - max: 1576.0
+        mean: 281.6715393066406
+        median: 273.0
+        min: -46.0
+        stdev: 90.76614379882812
+        percentile: [124.0, 198.0, 361.0, 836.375]
+        percentile_00_5: 124.0
+        percentile_10_0: 198.0
+        percentile_90_0: 361.0
+        percentile_99_5: 836.375
+      foreground_percentage: 0.0005300726043060422
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_16.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_16.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 507, 224]
+    spacing: [0.46875, 0.46875, 0.625]
+    sizemm: [240, 240, 140]
+    intensity:
+    - max: 3679.0
+      mean: -789.7479858398438
+      median: -115.0
+      min: -3282.0
+      stdev: 1192.4390869140625
+      percentile: [-3028.0, -3024.0, 108.0, 430.0]
+      percentile_00_5: -3028.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 108.0
+      percentile_99_5: 430.0
+  image_foreground_stats:
+    intensity:
+    - max: 1030.0
+      mean: 273.11962890625
+      median: 272.0
+      min: -88.0
+      stdev: 72.61125946044922
+      percentile: [106.0, 178.0, 366.0, 454.0]
+      percentile_00_5: 106.0
+      percentile_10_0: 178.0
+      percentile_90_0: 366.0
+      percentile_99_5: 454.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1030.0
+      mean: 273.11962890625
+      median: 272.0
+      min: -88.0
+      stdev: 72.61125946044922
+      percentile: [106.0, 178.0, 366.0, 454.0]
+      percentile_00_5: 106.0
+      percentile_10_0: 178.0
+      percentile_90_0: 366.0
+      percentile_99_5: 454.0
+    label:
+    - image_intensity:
+      - max: 3679.0
+        mean: -809.1414794921875
+        median: -118.0
+        min: -3282.0
+        stdev: 1203.90771484375
+        percentile: [-3028.0, -3024.0, 107.0, 430.0]
+        percentile_00_5: -3028.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 107.0
+        percentile_99_5: 430.0
+      foreground_percentage: 0.99947589635849
+    - image_intensity:
+      - max: 1030.0
+        mean: 273.11962890625
+        median: 272.0
+        min: -88.0
+        stdev: 72.61125946044922
+        percentile: [106.0, 178.0, 366.0, 454.0]
+        percentile_00_5: 106.0
+        percentile_10_0: 178.0
+        percentile_90_0: 366.0
+        percentile_99_5: 454.0
+      foreground_percentage: 0.0005241291946731508
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_17.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_17.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 498, 224]
+    spacing: [0.3945310116, 0.3945310116, 0.625]
+    sizemm: [201, 201, 140]
+    intensity:
+    - max: 3444.0
+      mean: -941.302001953125
+      median: -845.0
+      min: -3387.0
+      stdev: 1126.7779541015625
+      percentile: [-3027.0, -3023.0, 192.0, 577.0]
+      percentile_00_5: -3027.0
+      percentile_10_0: -3023.0
+      percentile_90_0: 192.0
+      percentile_99_5: 577.0
+  image_foreground_stats:
+    intensity:
+    - max: 1463.0
+      mean: 362.5947570800781
+      median: 353.0
+      min: -121.0
+      stdev: 96.9236831665039
+      percentile: [143.68499755859375, 253.0, 484.0, 591.0]
+      percentile_00_5: 143.68499755859375
+      percentile_10_0: 253.0
+      percentile_90_0: 484.0
+      percentile_99_5: 591.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 1463.0
+      mean: 362.5947570800781
+      median: 353.0
+      min: -121.0
+      stdev: 96.9236831665039
+      percentile: [143.68499755859375, 253.0, 484.0, 591.0]
+      percentile_00_5: 143.68499755859375
+      percentile_10_0: 253.0
+      percentile_90_0: 484.0
+      percentile_99_5: 591.0
+    label:
+    - image_intensity:
+      - max: 3444.0
+        mean: -986.0769653320312
+        median: -851.0
+        min: -3387.0
+        stdev: 1150.73388671875
+        percentile: [-3028.0, -3024.0, 184.0, 575.0]
+        percentile_00_5: -3028.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 184.0
+        percentile_99_5: 575.0
+      foreground_percentage: 0.9994969964027405
+    - image_intensity:
+      - max: 1463.0
+        mean: 362.5947570800781
+        median: 353.0
+        min: -121.0
+        stdev: 96.9236831665039
+        percentile: [143.68499755859375, 253.0, 484.0, 591.0]
+        percentile_00_5: 143.68499755859375
+        percentile_10_0: 253.0
+        percentile_90_0: 484.0
+        percentile_99_5: 591.0
+      foreground_percentage: 0.0005030291504226625
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_18.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_18.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 453, 224]
+    spacing: [0.457031, 0.457031, 0.625]
+    sizemm: [233, 233, 140]
+    intensity:
+    - max: 3071.0
+      mean: -682.2918701171875
+      median: -85.0
+      min: -3024.0
+      stdev: 1121.2406005859375
+      percentile: [-3024.0, -3024.0, 158.0, 518.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 158.0
+      percentile_99_5: 518.0
+  image_foreground_stats:
+    intensity:
+    - max: 852.0
+      mean: 234.80381774902344
+      median: 235.0
+      min: -88.0
+      stdev: 58.08785629272461
+      percentile: [71.06500244140625, 164.0, 309.0, 370.0]
+      percentile_00_5: 71.06500244140625
+      percentile_10_0: 164.0
+      percentile_90_0: 309.0
+      percentile_99_5: 370.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 852.0
+      mean: 234.80381774902344
+      median: 235.0
+      min: -88.0
+      stdev: 58.08785629272461
+      percentile: [71.06500244140625, 164.0, 309.0, 370.0]
+      percentile_00_5: 71.06500244140625
+      percentile_10_0: 164.0
+      percentile_90_0: 309.0
+      percentile_99_5: 370.0
+    label:
+    - image_intensity:
+      - max: 3071.0
+        mean: -849.348876953125
+        median: -445.0
+        min: -3024.0
+        stdev: 1201.095947265625
+        percentile: [-3024.0, -3024.0, 142.0, 488.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 142.0
+        percentile_99_5: 488.0
+      foreground_percentage: 0.9993798136711121
+    - image_intensity:
+      - max: 852.0
+        mean: 234.80381774902344
+        median: 235.0
+        min: -88.0
+        stdev: 58.08785629272461
+        percentile: [71.06500244140625, 164.0, 309.0, 370.0]
+        percentile_00_5: 71.06500244140625
+        percentile_10_0: 164.0
+        percentile_90_0: 309.0
+        percentile_99_5: 370.0
+      foreground_percentage: 0.0006201267242431641
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_19.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_19.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 168]
+    channels: 1
+    cropped_shape:
+    - [512, 509, 168]
+    spacing: [0.43164100000000005, 0.43164100000000005, 0.6250000000000001]
+    sizemm: [221, 221, 105]
+    intensity:
+    - max: 3071.0
+      mean: -849.831298828125
+      median: -586.0
+      min: -3024.0
+      stdev: 1184.6827392578125
+      percentile: [-3024.0, -3024.0, 150.0, 447.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 150.0
+      percentile_99_5: 447.0
+  image_foreground_stats:
+    intensity:
+    - max: 526.0
+      mean: 294.18548583984375
+      median: 294.0
+      min: -224.0
+      stdev: 71.23904418945312
+      percentile: [102.0, 207.0, 387.0, 459.0]
+      percentile_00_5: 102.0
+      percentile_10_0: 207.0
+      percentile_90_0: 387.0
+      percentile_99_5: 459.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 526.0
+      mean: 294.18548583984375
+      median: 294.0
+      min: -224.0
+      stdev: 71.23904418945312
+      percentile: [102.0, 207.0, 387.0, 459.0]
+      percentile_00_5: 102.0
+      percentile_10_0: 207.0
+      percentile_90_0: 387.0
+      percentile_99_5: 459.0
+    label:
+    - image_intensity:
+      - max: 3071.0
+        mean: -861.8490600585938
+        median: -608.0
+        min: -3024.0
+        stdev: 1191.4254150390625
+        percentile: [-3024.0, -3024.0, 149.0, 447.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 149.0
+        percentile_99_5: 447.0
+      foreground_percentage: 0.9993603825569153
+    - image_intensity:
+      - max: 526.0
+        mean: 294.18548583984375
+        median: 294.0
+        min: -224.0
+        stdev: 71.23904418945312
+        percentile: [102.0, 207.0, 387.0, 459.0]
+        percentile_00_5: 102.0
+        percentile_10_0: 207.0
+        percentile_90_0: 387.0
+        percentile_99_5: 459.0
+      foreground_percentage: 0.0006395975942723453
+- image_filepath: data/datasets/asoca/Diseased/CTCA/Diseased_20.nrrd
+  label_filepath: data/datasets/asoca/Diseased/Annotations/Diseased_20.nrrd
+  image_stats:
+    shape:
+    - [512, 512, 224]
+    channels: 1
+    cropped_shape:
+    - [512, 487, 224]
+    spacing: [0.4707030058, 0.4707030058, 0.6249999999999998]
+    sizemm: [240, 240, 139]
+    intensity:
+    - max: 3220.0
+      mean: -732.1636962890625
+      median: -116.0
+      min: -3179.0
+      stdev: 1161.030517578125
+      percentile: [-3027.0, -3023.0, 149.0, 505.0]
+      percentile_00_5: -3027.0
+      percentile_10_0: -3023.0
+      percentile_90_0: 149.0
+      percentile_99_5: 505.0
+  image_foreground_stats:
+    intensity:
+    - max: 701.0
+      mean: 278.3091125488281
+      median: 279.0
+      min: -112.0
+      stdev: 80.396484375
+      percentile: [73.0, 176.0, 383.0, 461.0]
+      percentile_00_5: 73.0
+      percentile_10_0: 176.0
+      percentile_90_0: 383.0
+      percentile_99_5: 461.0
+  label_stats:
+    labels: [0, 1]
+    image_intensity:
+    - max: 701.0
+      mean: 278.3091125488281
+      median: 279.0
+      min: -112.0
+      stdev: 80.396484375
+      percentile: [73.0, 176.0, 383.0, 461.0]
+      percentile_00_5: 73.0
+      percentile_10_0: 176.0
+      percentile_90_0: 383.0
+      percentile_99_5: 461.0
+    label:
+    - image_intensity:
+      - max: 3220.0
+        mean: -814.7017822265625
+        median: -131.0
+        min: -3179.0
+        stdev: 1206.8326416015625
+        percentile: [-3027.0, -3024.0, 141.0, 496.0]
+        percentile_00_5: -3027.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 141.0
+        percentile_99_5: 496.0
+      foreground_percentage: 0.9994783401489258
+    - image_intensity:
+      - max: 701.0
+        mean: 278.3091125488281
+        median: 279.0
+        min: -112.0
+        stdev: 80.396484375
+        percentile: [73.0, 176.0, 383.0, 461.0]
+        percentile_00_5: 73.0
+        percentile_10_0: 176.0
+        percentile_90_0: 383.0
+        percentile_99_5: 461.0
+      foreground_percentage: 0.0005216427962295711

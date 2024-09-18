@@ -1,0 +1,228 @@
+{
+    "train": [
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_1.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_1.nrrd"
+            }, 
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_2.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_2.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_3.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_3.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_4.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_4.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_6.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_6.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_7.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_7.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_8.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_8.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_10.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_10.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_11.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_11.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_12.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_12.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_13.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_13.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_14.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_14.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_15.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_15.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_16.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_16.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_17.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_17.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_19.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_19.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_20.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_20.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_1.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_1.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_2.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_2.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_3.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_3.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_5.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_5.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_6.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_6.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_7.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_7.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_9.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_9.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_10.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_10.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_11.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_11.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_12.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_12.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_13.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_13.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_14.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_14.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_16.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_16.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_17.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_17.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_18.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_18.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_19.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_19.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_20.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_20.nrrd"
+            }
+    ],
+    "validation": [
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_5.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_5.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_9.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_9.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/CTCA/Normal_18.nrrd",
+                "label": "data/datasets/asoca/Normal/Annotations/Normal_18.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_4.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_4.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_8.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_8.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/CTCA/Diseased_15.nrrd",
+                "label": "data/datasets/asoca/Diseased/Annotations/Diseased_15.nrrd"
+            }
+    ],
+    "test": [
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/0.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/1.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/2.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/3.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/4.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/5.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/6.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/7.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/8.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Normal/Testset_Normal/9.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/10.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/11.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/12.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/13.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/14.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/15.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/16.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/17.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/18.nrrd"
+            },
+            {
+                "image": "data/datasets/asoca/Diseased/Testset_Diseased/19.nrrd"
+            }
+    ]
+}

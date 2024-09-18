@@ -1,0 +1,547 @@
+{
+    "training": [
+        {
+            "image": "data/datasets/imagecas/sample/10649241/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10649241/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062074/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062074/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12063502/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12063502/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062521/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062521/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12063589/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12063589/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12077911/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12077911/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062849/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062849/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10701521/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10701521/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10632505/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10632505/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10624568/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10624568/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062368/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062368/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10250841/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10250841/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10765058/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10765058/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062709/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062709/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062410/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062410/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062411/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062411/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12087501/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12087501/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10016975/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10016975/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10308614/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10308614/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062504/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062504/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062830/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062830/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10691932/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10691932/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10333737/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10333737/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10029129/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10029129/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062464/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062464/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062194/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062194/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062378/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062378/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12087374/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12087374/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10818087/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10818087/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10788216/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10788216/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10782217/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10782217/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062199/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062199/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10711583/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10711583/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062812/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062812/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10258935/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10258935/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10653045/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10653045/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10224460/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10224460/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12086024/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12086024/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12061830/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12061830/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12063624/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12063624/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10317210/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10317210/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10317476/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10317476/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12061289/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12061289/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12061282/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12061282/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10033946/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10033946/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10636201/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10636201/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10631703/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10631703/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10017784/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10017784/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12063069/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12063069/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10611273/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10611273/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10798840/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10798840/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062552/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062552/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10712530/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10712530/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12085651/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12085651/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062282/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062282/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10631068/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10631068/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062630/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062630/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12085688/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12085688/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10311326/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10311326/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10656415/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10656415/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10249582/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10249582/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12063213/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12063213/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10814698/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10814698/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10770818/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10770818/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10033813/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10033813/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10234511/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10234511/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10248191/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10248191/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062973/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062973/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10018985/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10018985/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10236502/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10236502/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10710989/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10710989/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062456/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062456/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10753732/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10753732/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10239504/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10239504/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10701677/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10701677/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12063243/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12063243/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10032743/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10032743/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12063606/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12063606/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10713007/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10713007/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12063520/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12063520/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12087011/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12087011/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10638597/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10638597/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12061615/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12061615/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062673/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062673/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10312291/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10312291/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062170/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062170/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062559/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062559/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10253809/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10253809/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10603378/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10603378/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10651880/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10651880/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10276984/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10276984/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10694456/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10694456/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12063394/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12063394/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10302584/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10302584/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062588/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062588/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062602/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062602/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10257303/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10257303/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10258640/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10258640/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10796841/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10796841/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10659074/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10659074/label.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10211117/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10211117/label.nii.gz",
+            "fold": 0
+        }
+    ],
+    "validation": [
+        {
+            "image": "data/datasets/imagecas/sample/10684380/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10684380/label.nii.gz"
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10646158/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10646158/label.nii.gz"
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12062201/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12062201/label.nii.gz"
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10774409/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10774409/label.nii.gz"
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10253638/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10253638/label.nii.gz"
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10669930/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10669930/label.nii.gz"
+        },
+        {
+            "image": "data/datasets/imagecas/sample/12061306/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/12061306/label.nii.gz"
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10677013/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10677013/label.nii.gz"
+        },
+        {
+            "image": "data/datasets/imagecas/sample/10027729/img.nii.gz",
+            "label": "data/datasets/imagecas/sample/10027729/label.nii.gz"
+        }
+    ]
+}
